@@ -1,0 +1,71 @@
+header{
+    position: fixed;
+}
+
+header h1 span{
+    color: #00aff0;
+}
+
+header nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+header nav a:hover{
+    color: #025cab; 
+    transition: all 0.5s;   
+}
+
+/* .txt-shadow{ */
+    /* تعليمة بتعمل إطار للكلام حددنا السماكة واللون */
+    /* -webkit-text-stroke: 1px #fff; */
+/* } */
+
+.container1{
+    background-image: url(gopro_images/uhTbWNrRQVwmhvYVDKUF8i.jpg);
+    /* min-height: 100vh; */
+    background-position: center;
+    background-size: cover;
+}
+
+.container1 h1
+,.container2 h1
+,.container4 h1{
+    font-size: 3em;
+    /* تعليمة بتعمل إطار للكلام حددنا السماكة واللون */
+    -webkit-text-stroke: 1px #fff;
+}
+
+.container1 p{
+    font-size: 29px;
+    font-weight: bolder;
+    text-shadow: 0 0 3px #00000088;
+}
+
+.container2{
+    background-image: url(gopro_images/H12Black_PDP_VideoIntro-Module-1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container3 {
+    color: #025cab;
+}
+
+.card{
+    width: 300px;
+}
+
+.container4{
+    background-image: url(gopro_images/accessories.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    border-top: 1px solid #fff;
+}
